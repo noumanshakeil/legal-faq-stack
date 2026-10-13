@@ -1,0 +1,13 @@
+[project]
+name = "legal-faq-stack"
+version = "2.0.0"
+description = "Jurisdiction-aware legal FAQ stack with editor tools, disclaimer banners, and grounded answers that refuse to invent statute."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
