@@ -1,0 +1,12 @@
+{
+  "project": "legal-faq-stack",
+  "resource": "faqs",
+  "samples": [
+    {
+      "id": "f1",
+      "question": "Data residency?",
+      "answer": "EU region available",
+      "jurisdiction": "EU"
+    }
+  ]
+}
